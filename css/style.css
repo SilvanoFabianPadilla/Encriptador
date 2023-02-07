@@ -116,10 +116,9 @@ main {
 .mensaje {
     background: none;
     background-image: url(/img/llave.gif);
-    background-color: var(--Negro);
     background-repeat: no-repeat;
     background-position: center;
-    color: var(--Azul);
+    color: var(--Blanco);
     font-family: var(--FuenteTitulos);
     font-size: 30px;
     margin: 50px 40px;
