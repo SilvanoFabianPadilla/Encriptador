@@ -15,17 +15,13 @@ header {
     background-color: var(--Negro);
     padding: 10px 0;
     margin: 50px 200px;
-    border-radius: 50px 50px 50px 50px;
-    -moz-border-radius: 50px 50px 50px 50px;
-    -webkit-border-radius: 50px 50px 50px 50px;
-    border: 5px solid #000000;
     -webkit-box-shadow: 10px 10px 40px 50px rgba(15, 155, 15, 0.6);
     -moz-box-shadow: 10px 10px 40px 50px rgba(15, 155, 15, 0.6);
     box-shadow: 10px 10px 40px 50px rgba(15, 155, 15, 0.6);
     border-radius: 50px 50px 50px 50px;
     -moz-border-radius: 50px 50px 50px 50px;
     -webkit-border-radius: 50px 50px 50px 50px;
-    border: 4px solid var(--Verde);
+    border: 5px solid var(--Verde);
 }
 
 body::-webkit-scrollbar-track {
@@ -84,20 +80,16 @@ main {
     height: 100px;
     text-align: center;
     border-color: var(--Verde);
-    border-radius: 10px 10px 10px 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
-    border: 5px solid #000000;
     -webkit-box-shadow: 10px 10px 56px 30px rgba(15, 155, 15, 0.6);
     -moz-box-shadow: 10px 10px 56px 30px rgba(15, 155, 15, 0.6);
     box-shadow: 10px 10px 56px 30px rgba(15, 155, 15, 0.6);
     resize: none;
     outline: none;
     text-transform: lowercase;
-    border-radius: 50px 50px 50px 50px;
-    -moz-border-radius: 50px 50px 50px 50px;
-    -webkit-border-radius: 50px 50px 50px 50px;
-    border: 4px solid var(--Verde);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 5px solid var(--Verde);
 }
 
 .texto::placeholder {
@@ -109,7 +101,7 @@ main {
 }
 
 .texto::-webkit-scrollbar-thumb {
-    background: linear-gradient(to top, #003693, #000000);
+    background: linear-gradient(to top, #0f9b0f, #003693);
     border-radius: 10px;
 }
 
@@ -123,23 +115,32 @@ main {
     height: 200px;
     text-align: center;
     border-color: var(--Verde);
-    border-radius: 10px 10px 10px 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
-    border: 5px solid #000000;
     -webkit-box-shadow: 10px 10px 56px 30px rgba(15, 155, 15, 0.6);
     -moz-box-shadow: 10px 10px 56px 30px rgba(15, 155, 15, 0.6);
     box-shadow: 10px 10px 56px 30px rgba(15, 155, 15, 0.6);
     resize: none;
     outline: none;
     cursor: context-menu;
-    border-radius: 50px 50px 50px 50px;
-    -moz-border-radius: 50px 50px 50px 50px;
-    -webkit-border-radius: 50px 50px 50px 50px;
-    border: 4px solid var(--Verde);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 5px solid var(--Verde);
     background-image: url(/img/ojo.gif);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.mensaje::placeholder {
+    color: var(--Azul);
+}
+
+.mensaje::-webkit-scrollbar {
+    width: 10px;
+}
+
+.mensaje::-webkit-scrollbar-thumb {
+    background: linear-gradient(to top, #0f9b0f, #003693);
+    border-radius: 10px;
 }
 
 /* Informacion */
@@ -150,10 +151,10 @@ main {
     width: 630px;
     padding: 10px 0;
     margin: 0 0 50px 30px;
-    border-radius: 50px 50px 50px 50px;
-    -moz-border-radius: 50px 50px 50px 50px;
-    -webkit-border-radius: 50px 50px 50px 50px;
-    border: 4px solid var(--Verde);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 5px solid var(--Verde);
     font-family: var(--FuenteTitulos);
     font-size: 20px;
 }
@@ -170,10 +171,6 @@ main {
     color: var(--Azul);
     font-family: var(--FuenteTitulos);
     font-size: 30px;
-    border-radius: 10px 10px 10px 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
-    border: 5px solid #000000;
     cursor: pointer;
     height: 67px;
     margin-left: 30px;
@@ -182,10 +179,10 @@ main {
     -moz-box-shadow: 10px 10px 56px 30px rgba(15, 155, 15, 0.6);
     box-shadow: 10px 10px 56px 30px rgba(15, 155, 15, 0.6);
     transition: 1s;
-    border-radius: 50px 50px 50px 50px;
-    -moz-border-radius: 50px 50px 50px 50px;
-    -webkit-border-radius: 50px 50px 50px 50px;
-    border: 4px solid var(--Verde);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 5px solid var(--Verde);
 }
 
 .encriptar:hover {
@@ -206,9 +203,6 @@ main {
     color: var(--Azul);
     font-family: var(--FuenteTitulos);
     font-size: 30px;
-    border-radius: 10px 10px 10px 10px;
-    -moz-border-radius: 10px 10px 10px 10px;
-    -webkit-border-radius: 10px 10px 10px 10px;
     border: 5px solid #000000;
     cursor: pointer;
     height: 67px;
@@ -216,12 +210,12 @@ main {
     -webkit-box-shadow: 10px 10px 56px 30px rgba(15, 155, 15, 0.6);
     -moz-box-shadow: 10px 10px 56px 30px rgba(15, 155, 15, 0.6);
     box-shadow: 10px 10px 56px 30px rgba(15, 155, 15, 0.6);
-    margin: -25px 0 0 50px;
+    margin: -20px 0 0 50px;
     transition: 1s;
-    border-radius: 50px 50px 50px 50px;
-    -moz-border-radius: 50px 50px 50px 50px;
-    -webkit-border-radius: 50px 50px 50px 50px;
-    border: 4px solid var(--Verde);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 5px solid var(--Verde);
 }
 
 .copiar:hover {
@@ -234,7 +228,7 @@ main {
     background-color: transparent;
     border: none;
     cursor: pointer;
-    margin: -40px 0 0 100px;
+    margin: -20px 0 0 100px;
     transition: 1s;
 }
 
@@ -522,6 +516,7 @@ footer {
 }
 
 @media (max-width: 375px) {
+
     .texto,
     .informacion,
     .mensaje {
@@ -545,7 +540,8 @@ footer {
         margin: 10px 0 10px 0px;
     }
 
-    .texto, .mensaje {
+    .texto,
+    .mensaje {
         font-size: 20px;
         width: 240px;
     }
@@ -555,7 +551,7 @@ footer {
         font-size: 20px;
     }
 
-    .botones{
+    .botones {
         display: block;
     }
 
