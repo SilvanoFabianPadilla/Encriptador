@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="img/icono.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navegacion -->
+    <header>
+        <div class="caja">
+            <h1><img src="img/logo.gif" alt="Logo" class="logo"></h1>
+            <h1 class="titulo">Encriptador de texto</h1>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <section>
+            <textarea id="ingrese" class="texto" placeholder="Ingrese el texto aquí"></textarea>
+            <div>
+                <p class="informacion">⚠ Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="botones">
+                <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+
+        <section>
+            <textarea id="pegar" class="mensaje" cols="30" rows="10" readonly>No hay mensaje</textarea>
+            <div class="botones">
+                <button class="copiar" onclick="copiar()">Copiar</button>
+                <button onclick="eliminar()" class="eliminar"><img src="img/eliminar.png" alt="Eliminar"></button>
+            </div>
+        </section>
+    </main>
+
+    <!-- copyright -->
+    <footer>
+        <a href="https://www.facebook.com/silvanofabian.padillalozano/"><img src="img/facebook.png" alt="Logo"
+                class="social"></a>
+        <a href="https://github.com/SilvanoFabianPadilla"><img src="img/github.png" alt="Logo" class="social"></a>
+        <a href="https://www.instagram.com/fabiruchis2121/"><img src="img/instagram.png" alt="Logo" class="social"></a>
+        <a href="https://www.linkedin.com/in/silvano-fabi%C3%A1n-padilla-lozano-414747253/"><img src="img/linkedin.png"
+                alt="Logo" class="social"></a>
+
+        <p class="copyright">&copy Copyright - Fabián Padilla - 2023</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
