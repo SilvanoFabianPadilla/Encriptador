@@ -12,7 +12,7 @@ body {
 
 /* Titulo */
 header {
-    background-image: url(/img/fondo.png);
+    background-color: var(--Negro);
     padding: 10px 0;
     margin: 50px 200px;
     border-radius: 50px 50px 50px 50px;
@@ -22,6 +22,10 @@ header {
     -webkit-box-shadow: 10px 10px 40px 50px rgba(15, 155, 15, 0.6);
     -moz-box-shadow: 10px 10px 40px 50px rgba(15, 155, 15, 0.6);
     box-shadow: 10px 10px 40px 50px rgba(15, 155, 15, 0.6);
+    border-radius: 50px 50px 50px 50px;
+    -moz-border-radius: 50px 50px 50px 50px;
+    -webkit-border-radius: 50px 50px 50px 50px;
+    border: 4px solid var(--Verde);
 }
 
 body::-webkit-scrollbar-track {
@@ -71,7 +75,7 @@ main {
 }
 
 .texto {
-    background-image: url(/img/fondo.png);
+    background-color: var(--Negro);
     color: var(--Azul);
     font-family: var(--FuenteTitulos);
     font-size: 30px;
@@ -90,6 +94,10 @@ main {
     resize: none;
     outline: none;
     text-transform: lowercase;
+    border-radius: 50px 50px 50px 50px;
+    -moz-border-radius: 50px 50px 50px 50px;
+    -webkit-border-radius: 50px 50px 50px 50px;
+    border: 4px solid var(--Verde);
 }
 
 .texto::placeholder {
@@ -108,9 +116,10 @@ main {
 .mensaje {
     background: none;
     background-image: url(/img/llave.gif);
+    background-color: var(--Negro);
     background-repeat: no-repeat;
     background-position: center;
-    color: var(--Blanco);
+    color: var(--Azul);
     font-family: var(--FuenteTitulos);
     font-size: 30px;
     margin: 50px 40px;
@@ -128,12 +137,15 @@ main {
     resize: none;
     outline: none;
     cursor: context-menu;
-    opacity: .9;
+    border-radius: 50px 50px 50px 50px;
+    -moz-border-radius: 50px 50px 50px 50px;
+    -webkit-border-radius: 50px 50px 50px 50px;
+    border: 4px solid var(--Verde);
 }
 
 /* Informacion */
 .informacion {
-    color: var(--Blanco);
+    color: var(--Azul);
     background-color: var(--Negro);
     text-align: center;
     width: 630px;
@@ -155,7 +167,7 @@ main {
 
 .encriptar,
 .desencriptar {
-    background-image: url(/img/fondo.png);
+    background-color: var(--Negro);
     color: var(--Azul);
     font-family: var(--FuenteTitulos);
     font-size: 30px;
@@ -171,23 +183,27 @@ main {
     -moz-box-shadow: 10px 10px 56px 30px rgba(15, 155, 15, 0.6);
     box-shadow: 10px 10px 56px 30px rgba(15, 155, 15, 0.6);
     transition: 1s;
+    border-radius: 50px 50px 50px 50px;
+    -moz-border-radius: 50px 50px 50px 50px;
+    -webkit-border-radius: 50px 50px 50px 50px;
+    border: 4px solid var(--Verde);
 }
 
 .encriptar:hover {
     transform: scale(1.1);
-    border: 5px solid var(--Verde);
+    border: 5px solid var(--Blanco);
     color: var(--Blanco);
 }
 
 .desencriptar:hover {
     transform: scale(1.1);
-    border: 5px solid var(--Verde);
+    border: 5px solid var(--Blanco);
     color: var(--Blanco);
 
 }
 
 .copiar {
-    background-image: url(/img/fondo.png);
+    background-color: var(--Negro);
     color: var(--Azul);
     font-family: var(--FuenteTitulos);
     font-size: 30px;
@@ -203,11 +219,15 @@ main {
     box-shadow: 10px 10px 56px 30px rgba(15, 155, 15, 0.6);
     margin: -25px 0 0 50px;
     transition: 1s;
+    border-radius: 50px 50px 50px 50px;
+    -moz-border-radius: 50px 50px 50px 50px;
+    -webkit-border-radius: 50px 50px 50px 50px;
+    border: 4px solid var(--Verde);
 }
 
 .copiar:hover {
     transform: scale(1.1);
-    border: 5px solid var(--Verde);
+    border: 5px solid var(--Blanco);
     color: var(--Blanco);
 }
 
